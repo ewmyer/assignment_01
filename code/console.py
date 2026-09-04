@@ -21,3 +21,4 @@ print(f"Grand total: ${total:.2f}")
 print(f"Per person ({people}): ${per_person:.2f}")
 if is_generous(pct):
     print("That's a generous tip! 🎉")
+

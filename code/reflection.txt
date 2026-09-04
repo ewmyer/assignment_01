@@ -1,4 +1,13 @@
 Write your reflection here.
+I was pretty lost when I first attempted this assignment, but, with help from
+Nathan, I was able to jog my memory and figure out what was going wrong. I
+initially struggled with writing the code, but simple fixes such as proper
+colon use, proper indenting, and using a == instead of an = helped me create
+code that passed the tests. I think that one thing I struggle with when I
+return to coding for the first time in a while is that the terminology seems
+a bit jarring to me at first, but once I ease into what I'm doing, I tend to
+be able to figure it out.
+
 
 See reflection.md for what makes a good reflection — be specific, use the
 terminology from class, and make it actionable.
