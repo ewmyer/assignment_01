@@ -41,10 +41,9 @@ def split_evenly(total, people):
     >>> split_evenly(60, 4)
     15.0
     """
-    if people == 0:
-        raise ValueError
-    else:
-        return round(total/people, 2)
+    if people <= 0:
+        raise ValueError("people must be greater than 0")
+    return round(total / people, 2)
 
 
 
@@ -54,7 +53,4 @@ def is_generous(pct):
     >>> is_generous(20)
     True
     """
-    if pct >= 20:
-        return True
-    else:
-        return False
+    return pct >= 20
