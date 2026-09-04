@@ -3,13 +3,17 @@ I was pretty lost when I first attempted this assignment, but, with help from
 Nathan, I was able to jog my memory and figure out what was going wrong. I
 initially struggled with writing the code, but simple fixes such as proper
 colon use, proper indenting, and using a == instead of an = helped me create
-code that passed the tests. My tests for split_evenly in bill.py were not 
-passing because I initially used numbers in the function instead of the people 
-and total parameters, and I wrote return ValueError at first instead of raise 
-ValueError. Catching these mistakes made it possible for me to write 
-test-passable code. As I get more familiar with the style of instructions and get more 
-acclimated with the course, I am confident that I will be able to follow along 
-sooner by asking my TA or classmates to help me with unfamiliar terms.
+code that passed the tests. Nathan gave me a tip that I will use in the future
+for indenting, which was to indent parameters after the colon under a specific 
+function or "clause," creating one "spaghetti string," and to remove the indent 
+when creating a new function or clause which uses its own spaghetti string. My 
+tests for split_evenly in bill.py were not passing because I initially used 
+numbers in the function instead of the people and total parameters, and I wrote 
+return ValueError at first instead of raise ValueError. Catching these mistakes 
+made it possible for me to write test-passable code. As I get more familiar with 
+the style of instructions and get more acclimated with the course, I am confident 
+that I will be able to follow along sooner by asking my TA or classmates to help
+me with unfamiliar terms.
 
 
 See reflection.md for what makes a good reflection — be specific, use the
