@@ -7,14 +7,9 @@ code that passed the tests. My tests for split_evenly in bill.py were not
 passing because I initially used numbers in the function instead of the people 
 and total parameters, and I wrote return ValueError at first instead of raise 
 ValueError. Catching these mistakes made it possible for me to write 
-test-passable code.
-
-I think that one thing I struggle with when I return to coding for the first 
-time in a while is that the terminology seems a bit jarring to me at first, 
-but as I get more familiar with the style of instructions and get more 
+test-passable code. As I get more familiar with the style of instructions and get more 
 acclimated with the course, I am confident that I will be able to follow along 
-from the get-go by remembering past coding experiences where I've had to use
-certain terms, and researching unfamiliar ones.
+sooner by asking my TA or classmates to help me with unfamiliar terms.
 
 
 See reflection.md for what makes a good reflection — be specific, use the
