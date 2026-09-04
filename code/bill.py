@@ -18,7 +18,6 @@ def tip_amount(subtotal, pct):
     >>> tip_amount(50, 20)
     10.0
     """
-    # TODO: def tip_amount(subtotal, pct):
     return round(subtotal * pct / 100, 2)
 
 
@@ -30,7 +29,6 @@ def grand_total(subtotal, pct):
     >>> grand_total(50, 20)
     60.0
     """
-    # TODO: def grand_total(subtotal, pct):
     return round(subtotal + tip_amount(subtotal, pct), 2)
 
 
@@ -43,7 +41,6 @@ def split_evenly(total, people):
     >>> split_evenly(60, 4)
     15.0
     """
-    # TODO: 
     if people == 0:
         raise ValueError
     else:
@@ -57,7 +54,6 @@ def is_generous(pct):
     >>> is_generous(20)
     True
     """
-    # TODO: 
     if pct >= 20:
         return True
     else:
